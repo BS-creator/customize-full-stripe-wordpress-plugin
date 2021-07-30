@@ -593,7 +593,7 @@ class MM_WPFS_Stripe implements MM_WPFS_Payment_API {
 			'items'           => array(
 				array(
 					'plan'     => $stripePlan->id,
-					'quantity' => $stripePlanQuantity
+				// 	'quantity' => $stripePlanQuantity
 				)
 			),
 			'expand'          => array(

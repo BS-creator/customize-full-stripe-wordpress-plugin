@@ -1456,6 +1456,7 @@ class MM_WPFS_CurrencyFormat {
 	 * @throws Exception
 	 */
 	public function format( $amount, $decimalsForInteger = true, $showCurrency = true ) {
+	    return 333;
 		if ( ! is_numeric( $amount ) ) {
 			throw new Exception( 'amount is not a number: ' . print_r( $amount, true ) );
 		}
